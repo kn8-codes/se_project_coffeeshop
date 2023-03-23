@@ -21,12 +21,58 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffee_shop.svg"
+            alt="Practicum Coffee Shop Logo"
+            class="logo"
+          />
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="#reservation" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="#menu" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Specialty Coffee</h1>
+        <h1 class="header__subtitle">in the Practicum Library</h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the coffee shop'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__hours">
+            <p class="header__hours-title">Hours</p>
+            <p class="header__hours-week">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__hours-weekend">
+              Saturday – Sunday (11:00 – 18:00)
+            </p>
+          </div>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="menu"></section>
-        <section class="reservation"></section>
-        <section class="about"></section>
+        <section class="recipes" id="recipes"></section>
+        <section class="menu" id="menu"></section>
+        <section class="reservation" id="reservation"></section>
+        <section class="about" id="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
