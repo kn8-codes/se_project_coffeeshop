@@ -43,8 +43,10 @@
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">Specialty Coffee</h1>
-        <h1 class="header__subtitle">in the Practicum Library</h1>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span>
+          in the Practicum Library
+        </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
@@ -68,7 +70,39 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes" id="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h1 class="recipes__title">Recipes</h1>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home brewing
+            convenience.
+          </p>
+          <div class="recipes__video-wrapper">
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="The Ultimate AeroPress Technique (Episode #3)"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+            <div class="recipes__video">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="The Ultimate French Press Technique"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="reservation" id="reservation"></section>
         <section class="about" id="about"></section>

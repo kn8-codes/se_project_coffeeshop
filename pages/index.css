@@ -36,6 +36,11 @@
 }
 
 .nav__links {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   margin-top: 30px;
   margin-right: 80px;
   margin-left: auto;
@@ -56,20 +61,25 @@
 }
 
 .header__title {
-  font-size: 66px;
-  line-height: 76px;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
-  max-width: 544px;
-  margin-top: 150px;
-  margin-bottom: 0px;
+  font-size: 60px;
+  line-height: 72px;
+  max-width: 729px;
+  margin-top: 202px;
+  margin-bottom: 28px;
 }
 
 .header__description {
-  background-position: center;
-  background-size: cover;
-  max-width: 532px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
   margin-bottom: 0;
-  margin-top: 32px;
+  margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
   font-size: 20px;
@@ -80,8 +90,8 @@
   z-index: 1;
   position: absolute;
   max-width: 636px;
-  top: 135px;
-  right: 20px;
+  top: 124px;
+  right: 0px;
 }
 
 .header__footer {
@@ -107,6 +117,55 @@
 }
 
 .header__address {
+  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
   margin: 0;
   color: #838383;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(./images/background__recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.recipes__title {
+  max-width: 500px;
+  padding-top: 100px;
+  padding-bottom: 24px;
+  margin-left: 80px;
+}
+
+.recipes__subtitle {
+  max-width: 430px;
+  padding-left: 80px;
+  margin-bottom: 80px;
+}
+
+.recipes__video {
+  margin-right: 40px;
+}
+.recipes__iframe {
+  margin-right: 40px;
+}
+
+.recipes__video-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 215px;
 }
