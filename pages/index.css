@@ -169,3 +169,11 @@
   justify-content: center;
   padding-bottom: 215px;
 }
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+}
+}
