@@ -171,11 +171,14 @@
 }
 
 .reservation {
-  display: flex;
-  flex-direction: column;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
 }
