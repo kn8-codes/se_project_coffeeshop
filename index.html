@@ -106,12 +106,29 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book A Table</h2>
           <fieldset class="reservation__form">
-            <input type="text" placeholder="name surname" required />
-            <input type="number" placeholder="1-8" required />
-            <input type="datetime-local" required />
-            <input type="email" placeholder="email@email.com" required />
+            <label for="name" class="reservation__form-label">Name</label>
+            <input type="text" placeholder="name surname" id="name" required />
+            <label for="number" class="reservation__form-label"
+              >Number of Guests</label
+            >
+            <input type="number" placeholder="1-8" id="number" required />
+            <label for="date" class="reservation__form-label"
+              >Date & Time</label
+            >
+            <input type="datetime-local" id="date" required />
+            <label for="email" class="reservation__form-label">E-Mail</label>
+            <input
+              type="email"
+              placeholder="email@email.com"
+              id="email"
+              required
+            />
             <input type="submit" />
-            <input type="checkbox" value="" required />
+
+            <label for="checkbox" class="reservation__form-label"
+              >I agree to the terms of use
+            </label>
+            <input type="checkbox" value="" id="checkbox" required />
           </fieldset>
         </section>
         <section class="about" id="about"></section>

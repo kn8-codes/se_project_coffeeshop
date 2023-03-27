@@ -176,6 +176,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
 }
 .reservation__title {
   margin-left: auto;
