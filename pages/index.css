@@ -225,6 +225,55 @@
   padding-bottom: 24px;
 }
 
+.about {
+  padding: 100px 80px;
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 0;
+  display: flex;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 154px;
+  position: relative;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  margin-left: 120px;
+}
+
+.about__paragraph {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  left: -91px;
+  z-index: -1;
+}
+
 .footer {
   box-sizing: border-box;
   background: #1f1f1f;
