@@ -225,6 +225,15 @@
   padding-bottom: 24px;
 }
 
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  list-style: none;
+}
+
 .about {
   padding: 100px 80px;
   background-color: #1f1f1f;
