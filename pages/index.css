@@ -223,15 +223,24 @@
   max-width: 780px;
   padding-top: 100px;
   padding-bottom: 24px;
+  justify-content: center;
+}
+
+.menu__subtiile {
+  max-width: 708px;
+  padding-bottom: 100px;
 }
 
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-items: center;
+  max-width: 1000px;
+  justify-content: center;
 }
 
-.card {
-  list-style: none;
+.card__list-item {
+  list-style-type: none;
 }
 
 .about {
@@ -274,12 +283,12 @@
 
 .about__circle {
   background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
+  width: 426px;
+  height: 426px;
   border-radius: 50%;
   position: absolute;
-  top: -121px;
-  left: -91px;
+  top: -152px;
+  left: -129px;
   z-index: -1;
 }
 
