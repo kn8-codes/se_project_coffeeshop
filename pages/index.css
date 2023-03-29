@@ -1,3 +1,10 @@
+@import url(../blocks/card.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/form.css);
+@import url(../blocks/page.css);
+@import url(../blocks/logo.css);
+
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
