@@ -22,23 +22,26 @@
 }
 
 .about__title {
-  margin: 0;
-  font-size: 20px;
-  line-height: 30px;
+  font-family: "Inter";
   font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  font-style: normal;
+  margin: 0;
   z-index: 1;
-  max-width: 154px;
+  max-width: 251px;
   position: relative;
 }
 
 .about__content {
+  font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
   max-width: 660px;
   margin-left: 120px;
 }
-
 .about__paragraph {
   margin-bottom: 32px;
   margin-top: 0;

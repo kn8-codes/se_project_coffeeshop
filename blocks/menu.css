@@ -7,6 +7,11 @@
 }
 
 .menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
   max-width: 780px;
   padding-top: 100px;
   padding-bottom: 24px;
@@ -14,14 +19,33 @@
 }
 
 .menu__subtiile {
-  max-width: 708px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
   padding-bottom: 100px;
+  justify-content: center;
 }
 
 .menu__cards {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
   max-width: 1000px;
   justify-content: center;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
