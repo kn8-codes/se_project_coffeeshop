@@ -117,7 +117,14 @@
               <label for="number" class="reservation__form-label"
                 >Number of Guests</label
               >
-              <input type="number" placeholder="1-8" id="number" required />
+              <input
+                type="number"
+                placeholder="1-8"
+                id="number"
+                min="1"
+                max="8"
+                required
+              />
               <label for="date" class="reservation__form-label"
                 >Date & Time</label
               >
