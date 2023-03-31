@@ -47,11 +47,3 @@
   max-width: 1000px;
   justify-content: center;
 }
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
