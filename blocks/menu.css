@@ -13,18 +13,22 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 100px;
   padding-bottom: 24px;
   justify-content: center;
 }
 
-.menu__subtiile {
+.menu__subtile {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
   padding-bottom: 100px;
   justify-content: center;
 }
