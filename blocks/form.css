@@ -10,8 +10,9 @@
   margin-bottom: 32px;
 }
 
-.form__button {
+.form__save {
   height: 60px;
+  background-color: #2f80ed;
 }
 
 .form_checkbox {
