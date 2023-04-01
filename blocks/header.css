@@ -74,7 +74,9 @@
   line-height: 20px;
   color: #838383;
   margin: 0;
-  color: #838383;
+  position: absolute;
+  bottom: -40px;
+  right: 80px;
 }
 
 .header__span-accent {
