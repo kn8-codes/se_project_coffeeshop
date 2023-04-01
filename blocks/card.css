@@ -5,6 +5,9 @@
 .card__list {
   list-style-type: none;
   padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 100px;
 }
 
 .card__list-item {
@@ -14,9 +17,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  gap: 100px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card__list-divider {
