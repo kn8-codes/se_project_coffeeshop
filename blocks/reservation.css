@@ -19,6 +19,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
+  display: block;
 }
 .reservation__form {
   display: flex;
@@ -30,6 +31,8 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reservation__form-label {
