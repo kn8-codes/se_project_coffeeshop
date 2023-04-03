@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: left;
 }
 
 .menu__title {
@@ -49,4 +49,5 @@
   justify-content: center;
   gap: 100px;
   margin: 100px auto 0;
+  padding-bottom: 100px;
 }
