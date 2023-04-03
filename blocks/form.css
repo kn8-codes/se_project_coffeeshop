@@ -8,6 +8,7 @@
 
 .form__input {
   margin-bottom: 32px;
+  height: 60px;
 }
 
 .form__save {
