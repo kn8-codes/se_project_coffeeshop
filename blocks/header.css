@@ -34,8 +34,6 @@
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .header__image {
@@ -65,7 +63,6 @@
 
 .header__link:hover {
   color: #1f69c9;
-  text-decoration: none;
 }
 
 .header__address {
