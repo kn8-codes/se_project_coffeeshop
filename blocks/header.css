@@ -1,5 +1,8 @@
 .header {
   background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -29,7 +32,6 @@
   line-height: 30px;
   max-width: 683px;
   margin-bottom: 0;
-  margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
   font-size: 20px;
