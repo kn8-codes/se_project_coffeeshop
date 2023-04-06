@@ -15,6 +15,7 @@
   height: 60px;
   background-color: #2f80ed;
   color: white;
+  border: 0px;
 }
 
 .form__label-checkbox {
