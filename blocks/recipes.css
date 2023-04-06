@@ -26,6 +26,8 @@
 }
 .recipes__iframe {
   border: 0;
+  height: 273;
+  width: 480;
 }
 
 .recipes__videos {
