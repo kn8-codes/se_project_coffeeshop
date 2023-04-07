@@ -1,5 +1,5 @@
 .card {
-  flex-basis: 400px;
+  flex-basis: 540px;
   flex-grow: 0;
 }
 
@@ -12,6 +12,7 @@
 
 .card__list-item {
   display: flex;
+  padding-bottom: 16px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
