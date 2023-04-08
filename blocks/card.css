@@ -1,6 +1,11 @@
 .card {
   flex-basis: 540px;
   flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {

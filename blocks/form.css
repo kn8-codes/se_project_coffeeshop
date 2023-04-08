@@ -12,9 +12,11 @@
 }
 
 .form__input {
+  box-sizing: border-box;
   margin-bottom: 32px;
   height: 60px;
   padding-left: 15px;
+  border-radius: 4px;
 }
 
 .form__save {
@@ -27,11 +29,14 @@
   background-color: #2f80ed;
   color: white;
   border: 0px;
+  border-radius: 4px;
 }
 
 .form__label-checkbox {
   text-align: center;
   padding-top: 32px;
+  border-radius: 2px;
+  color: black;
 }
 
 .form__fieldset {

@@ -24,10 +24,12 @@
   max-width: 430px;
   padding-left: 80px;
   margin-bottom: 80px;
+  margin-top: 0px;
 }
 
 .recipes__video {
-  margin-right: 40px;
+  margin 0;
+
 }
 .recipes__iframe {
   border: 0;
