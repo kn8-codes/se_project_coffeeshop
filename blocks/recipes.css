@@ -25,6 +25,11 @@
   padding-left: 80px;
   margin-bottom: 80px;
   margin-top: 0px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipes__video {
@@ -40,9 +45,15 @@
   display: flex;
   justify-content: center;
   padding-bottom: 215px;
+  gap: 80px;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
