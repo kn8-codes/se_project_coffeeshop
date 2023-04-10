@@ -27,9 +27,11 @@
   box-sizing: border-box;
   margin-bottom: 32px;
   height: 60px;
-  padding-left: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 4px;
-  border-color: #838383;
+  border: 1px solid #838383;
+  cursor: pointer;
 }
 
 .form__save {
@@ -43,6 +45,7 @@
   color: white;
   border: 0px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .form__label_type_checkbox {
@@ -65,4 +68,5 @@
   height: 20px;
   width: 20px;
   margin-right: 5px;
+  cursor: pointer;
 }
