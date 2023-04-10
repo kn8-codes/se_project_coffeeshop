@@ -11,18 +11,9 @@
   min-height: 224px;
 }
 
-.footer__columns {
+.footer__content {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-}
-
-.footer__column_content_hours {
-  margin-left: auto;
-}
-
-.footer__column_content_social {
-  margin-left: 100px;
 }
 
 .footer__logo {

@@ -1,5 +1,16 @@
 .form {
   max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form__label {
@@ -34,7 +45,7 @@
   border-radius: 4px;
 }
 
-.form__label-checkbox {
+.form__label_type_checkbox {
   text-align: center;
   padding-top: 32px;
   border-radius: 2px;
@@ -50,8 +61,8 @@
   width: 100%;
 }
 
-[type="checkbox"],
-[type="radio"] {
+.form__checkbox {
   height: 20px;
   width: 20px;
+  margin-right: 5px;
 }
